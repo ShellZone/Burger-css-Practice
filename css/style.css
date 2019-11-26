@@ -1,5 +1,5 @@
 :root {
-    --primary-color: blue;
+    --primary-color: rgb(111, 136, 135);
     --overlay-color: orange;
 }
 
@@ -27,7 +27,7 @@ body {
     background: url('../img/1920x1080-\ DBS\ Wallpaper.jpg')
     color: #fff;
     height: 100vh;
-    position: relative;
+    position: absolute;
 }
 
 .showcase::before {
@@ -57,6 +57,7 @@ body {
 
 .showcase p {
     font-size: 1.3rem;
+    color: red;
 }
 
 .btn {
